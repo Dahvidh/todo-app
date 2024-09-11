@@ -1,0 +1,133 @@
+/* Global styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  margin: 50px auto;
+  width: 90%;
+  max-width: 600px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+textarea {
+  padding: 10px;
+  width: 70%;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  height: 100px;
+}
+
+button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fafafa;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+li input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.completed-task {
+  text-decoration: line-through;
+  color: #888;
+}
+
+li button {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+li button:nth-of-type(1) {
+  background-color: #ff9800;
+}
+
+li button:nth-of-type(2) {
+  background-color: #f44336;
+}
+
+li button:hover {
+  opacity: 0.8;
+}
+
+/* Task Details Modal/Section */
+.task-details {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #e0f7fa;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-details h2 {
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.task-details h3 {
+  color: #333;
+}
+
+.task-details p {
+  font-size: 1.2rem;
+}
+
+.task-details button {
+  margin-top: 10px;
+  background-color: #2196f3;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task-details button:hover {
+  background-color: #1976d2;
+}
